@@ -52,18 +52,6 @@ public class Product {
 
 	}
 	
-	//______________________________________POVE___________________________
-//	public String getActivity() {
-//		return attivita;
-//	}
-//
-//	public String getCategoria() {
-//		return categoria;
-//	}
-
-	
-	//________________________________________________________
-	
 	
 	public List<Rating> getRatingObjList(){
 		return recensioni.stream().collect(Collectors.toList());
