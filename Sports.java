@@ -13,8 +13,7 @@ public class Sports {
 	Map<String,Category> categorie = new HashMap<> ();
 	Map<String,Product> prodotti = new HashMap<> ();
 	Set<Rating> recensioni = new HashSet<> ();
-	//qua Pove ha una list io un set
-    //R1
+	
     /**
      * Define the activities types treated in the portal.
      * The method can be invoked multiple times to add different activities.
